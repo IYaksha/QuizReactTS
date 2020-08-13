@@ -20,7 +20,7 @@ const QuizQuestion: React.FC<QuizQuestionProps> = ({
       difficulty
       <div dangerouslySetInnerHTML={{ __html: currentQuestion.question }} />
       {currentQuestion.allAnswers.map((answer) => (
-        <div dangerouslySetInnerHTML={{ __html: answer }} />
+        <div key={answer} dangerouslySetInnerHTML={{ __html: answer }} />
       ))}
     </div>
   );
