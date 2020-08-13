@@ -14,7 +14,6 @@ const QuizQuestions: React.FC<Props> = ({
   currentQuestionNumber,
   setCurrentQuestionNumber,
 }: Props) => {
-  console.log(quizQuestions, currentQuestionNumber);
   return (
     <div>
       <QuizQuestion

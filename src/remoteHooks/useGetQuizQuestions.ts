@@ -35,7 +35,7 @@ const useGetQuizQuestions = () => {
       });
     });
   }, []);
-  console.log(quizState);
+
   return quizState;
 };
 

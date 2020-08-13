@@ -13,7 +13,6 @@ const QuizQuestion: React.FC<QuizQuestionProps> = ({
   currentQuestion,
   setCurrentQuestionNumber,
 }: QuizQuestionProps) => {
-  console.log(currentQuestion, "in quiz question");
   return (
     <div>
       <span dangerouslySetInnerHTML={{ __html: currentQuestion.category }} /> ={" "}
